@@ -119,14 +119,14 @@ header .sp_navi_array {
     padding: 4% 0 4% 0;
 }
 
-#new_items {
+.items {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     margin-bottom: 0px;
 }
 
-#new_items li {
+.items li {
     background-color: #FFFFFF;
     padding: 10px 10px 0 10px;
     margin: 2px 2px 0 0;
@@ -498,11 +498,11 @@ footer .foot_navi a {
 }
 
 @media (max-width: 550px) {
-    #new_items {
+    .items {
         flex-wrap: wrap;
         flex-direction: row;
     }
-    #new_items li {
+    .items li {
         width: calc(100% / 2 - 2px);
     }
     #shopping_guide {
