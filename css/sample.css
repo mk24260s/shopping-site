@@ -1,9 +1,12 @@
 html {
     font-size: 62.5%
+    
 }
 
 body {
-    background-color: #f9f8f6} 
+    background-color: #f9f8f6;
+    font-family: 'Hira Kaku Pro' , ;
+} 
 
 p {
   font-size: 16px;
@@ -135,6 +138,10 @@ header .sp_navi_array {
     width: calc(100% / 3 - 2px);
 }
 
+.items li p {
+    font-size: 12px;
+}
+
 #shopping_guide {
     display: flex;
     list-style: none;
@@ -152,13 +159,17 @@ header .sp_navi_array {
 
 #shopping_guide li h2 {
     color: #857f69;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #shopping_guide li h3 {
     color: #857f69;
-    font-size: 16px;
+    font-size: 12px;
     margin: 10px 0 10px 0;
+}
+
+#shopping_guide li p {
+    font-size: 12px;
 }
 
 .menu {
@@ -178,7 +189,7 @@ header .sp_navi_array {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 80%;
+    font-size: 11px;
     font-style: oblique;
     padding: 8px 8px 8px 8px;
 }
@@ -193,7 +204,7 @@ header .sp_navi_array {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 80%;
+    font-size: 12px;
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
 }
@@ -204,7 +215,7 @@ header .sp_navi_array {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 80%;
+    font-size: 12px;
     padding: 10px 10px 10px 10px;
     margin-top: 1px;
 }
@@ -214,6 +225,10 @@ header .sp_navi_array {
     padding: 10px 10px 25px 10px;
     margin-top: 2px;
     box-sizing: border-box;
+}
+
+.pc_sidemenu_detail p {
+    font-size: 12px;
 }
 
 .sp_sidemenu_detail {
@@ -230,6 +245,10 @@ header .sp_navi_array {
     margin-top: 1px;
 }
 
+.sp_sidemenu_detail li p {
+    font-size: 12px;
+}
+
 .pagetop {
     margin-bottom: 5px;
 }
@@ -240,12 +259,13 @@ header .sp_navi_array {
 }
 
 .copyright p {
-    font-size: 80%;
+    font-size: 10px;
 }
 
 
 .pankuzu {
     background-color: #e6e4d9;
+    font-size: 11px;
     color: #b9bec5;
     padding: 8px 0 8px 10px;
     margin-bottom: 10px;
@@ -282,7 +302,7 @@ header .sp_navi_array {
 .products_box {
     background-color: white;
     box-sizing: border-box;
-    padding: 40px 30px 40px 30px;
+    padding: 40px 60px 40px 60px;
 }
 
 .products_header {
@@ -292,14 +312,15 @@ header .sp_navi_array {
 }
 
 .pro_title {
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
     
 }
 
 .pro_itemnumber {
+    font-size: 10px;
     color: #a5a5a5;
-    font-size: 80%;
 }
 
 .pro_bar {
@@ -422,7 +443,7 @@ table td:last-child {
 }
 
 .price span.en{
-    color: red;
+    color: rgb(232,15,102);
     font-style: italic;
     font-size: 25px;
 }
@@ -463,8 +484,12 @@ table td:last-child {
 }
 
 .item_detail_article {
-    font-weight: bold;
+    font-size: 14px;
     padding-bottom: 15px;
+}
+
+table {
+    font-size: 12px;
 }
 
 table.t_item_detail th:first-child, table.t_item_detail td:first-child {
@@ -480,6 +505,7 @@ table.t_item_detail {
 }
 
 footer .foot_navi {
+    font-size: 12px;
     text-align: center;
     padding: 20px 0 10px 0;
     border-top: 1px solid #e2ddd4;
