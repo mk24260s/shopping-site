@@ -222,6 +222,7 @@ header .sp_navi_array {
 
 .pc_sidemenu_detail {
     background-color: #FFFFFF;
+    text-align: center;
     padding: 10px 10px 25px 10px;
     margin-top: 2px;
     box-sizing: border-box;
@@ -251,6 +252,7 @@ header .sp_navi_array {
 
 .pagetop {
     margin-bottom: 5px;
+    text-align: right;
 }
 
 .copyright{
